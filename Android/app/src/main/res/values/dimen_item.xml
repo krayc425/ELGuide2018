@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_padding">8dp</dimen>
+    <dimen name="item_title_size">18dp</dimen>
+    <dimen name="item_time_size">14dp</dimen>
+</resources>
