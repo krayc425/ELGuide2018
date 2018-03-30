@@ -10,13 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.MainActivity">
+            <!-- 启动类设置 -->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".activity.QuestionActivity"/>
+
+        <!-- 生命周期测试 -->
+        <activity android:name=".activity.TestActivityA">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.QuestionActivity"/>
+        <activity android:name=".activity.TestActivityB"/>
     </application>
 
 </manifest>
